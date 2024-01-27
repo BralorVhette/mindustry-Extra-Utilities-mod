@@ -590,8 +590,8 @@ public class EUBlocks {
             hasItems = true;
             itemCapacity = 12;
             consumePower(7);
-            outputItem = new ItemStack(EUItems.lightninAlloy, 2);
-            craftTime = 3 * 60f;
+            outputItem = new ItemStack(EUItems.lightninAlloy, 3);
+            craftTime = 1 * 60f;
             size = 4;
             consumeItems(with(Items.surgeAlloy, 3, Items.phaseFabric, 2, Items.blastCompound, 3));
             consumeLiquid(Liquids.cryofluid, 0.1f);
